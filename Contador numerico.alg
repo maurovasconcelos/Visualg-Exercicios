@@ -1,18 +1,16 @@
 algoritmo "comadorNumerico"
 var
-   cont, N, S, maior: Inteiro
+N, S, maior: Inteiro
+resp: caractere
 inicio
-      cont <- 1
       S<- 0
-      Enquanto (cont <= 5) faca
-      Escreva ("Digite o", cont, "o.valor : ")
-      Leia(N)
-      Se (N > maior) entao
-      maior <- N
-      FimSe
-      S <- S + N
-      cont <- cont + 1
+      resp <- "S"
+      Enquanto (resp = "S") faca
+               Escreva ("Digite o valor : ")
+               Leia(N)
+               S <- S + N
+               Escreva("Você quer continuar [S/N] ")
+               Leia (resp)
       FimEnquanto
       Escreval("A soma de todos os valores foi ", S)
-      Escreval("O maior numero digitado foi o: ", maior)
 fimalgoritmo
