@@ -1,13 +1,13 @@
 algoritmo "semnome"
 var
 
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    num, quant, x, c, ant, at, pr:inteiro
    ini, fim, meio:inteiro
    dado:logico
    vet:vetor[0..20] de inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    ant <- 0
    at <- 1
    para c de 0 ate 20 faca
@@ -16,7 +16,7 @@ Inicio
      ant <- at
      at <- pr
    fimpara
-   escreval ("Digite numero (de 1 ate 10946) para começar a sequencia de fibonacci: ")
+   escreval ("Digite numero (de 1 ate 10946) para comeï¿½ar a sequencia de fibonacci: ")
      leia (num)
    ini <- 0
    fim <- 20
@@ -34,7 +34,7 @@ Inicio
      fimse
    fimenquanto
    se (dado=falso) entao
-     escreva ("O numero digitado não faz parte da sequencia de fibonacci!!!")
+     escreva ("O numero digitado nï¿½o faz parte da sequencia de fibonacci!!!")
    fimse
    se (dado=verdadeiro) entao
      at <- vet[meio]
